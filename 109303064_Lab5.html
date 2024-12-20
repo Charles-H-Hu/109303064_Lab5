@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="109303064_Lab5.css">
+    <title>Lab 5</title>
+</head>
+<body>
+    <h1>109303064_Lab5</h1>
+    <form id="gradeForm">
+        <label for="mathGrade">Math Grade:</label>
+        <input type="number" id="mathGrade" min="0" max="100" required>
+        <label for="englishGrade">English Grade:</label>
+        <input type="number" id="englishGrade" min="0" max="100" required>
+        <button type="button" id="submitButton">Submit</button>
+    </form>
+    <table id="gradesTable">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Math</th>
+                <th>English</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+        <tfoot>
+            <tr>
+                <td>Average</td>
+                <td id="mathAvg"></td>
+                <td id="englishAvg"></td>
+                <td id="overallAvg"></td>
+            </tr>
+        </tfoot>
+    </table>
+    <script src="109303064_Lab5.js"></script>
+</body>
+</html>
